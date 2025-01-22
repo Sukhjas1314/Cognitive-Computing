@@ -1,17 +1,17 @@
                                 Intro
 
 ->  eg -:
-        •  Voice assistants like siri, alexa and google assistant set an alarm or play a song, the system processes
-           your voice, understands the command, and responds accordingly. That’s
-           cognitive computing!
-        •  Instagram/Facebook Feeds : Cognitive systems analyze your preferences, time spent on posts, and
-           interactions to personalize your feed.
+        •  Voice assistants like siri, alexa and google assistant set an alarm or play a song, the system processes your voice, understands the command, 
+           and responds accordingly. That’s cognitive computing!
+        •  Instagram/Facebook Feeds : Cognitive systems analyze your preferences, time spent on posts, and interactions to personalize your feed.
 
 ->  Definations :-
-        •  Cognitive computing is one such technology that can evaluate an individual's performance and offer
-           personalized recommendations.
-        •  Pertaining to the processes of thinking, reasoning, understanding, and learning (intellectual activities)
-        •  Attempts to mimic the way a human brain works.
+        •  Cognitive computing is one such technology that can evaluate an individual's performance and offer personalized recommendations.
+        •  Pertaining to the processes of thinking,reasoning,understanding,learning and problem-solving(intellectual activities)
+        •  Cognitive computing is a technology that mimics human thought processes using artificial intelligence (AI), machine learning (ML),
+           natural language processing (NLP), and data analytics.
+        •  Cognitive processes use existing knowledge and generate new knowledge and it continuously acquires knowledge from the existing to 
+           understand human interaction and provide answers.
         •  Focuses on building systems that augment human intelligence, helping humans make better decisions.
 
 ->  Examples of cognition include:
@@ -22,4 +22,47 @@
         •  sensing and perceiving environmental stimuli,
         •  solving problems, and
         •  using memory.
+
+->  These advanced systems do more than execute commands :-
+        •  Grasps your need
+        •  Anticipate your questions
+        •  Proactively deliver valuable insights
+
+->  eg. For instance, the cognitive computing system can help a bank detect fraudulent transactions, or it can be employed by a company to 
+        improve its customer support through the chat bot.
+
+->  Difference b/w AI & CC :-
+        AI : •  Builds systems that replace the human intelligence for automating tasks and decision making.
+             •  Works autonomously to solve problems.
+             •  eg. ChatGPT, self-driving cars, Robotic Process Automation, Optimisation algorithms etc.
+        CC : •  Builds systems that augment the human intelligence for helping humans make better decision making.
+             •  Colaborates with human to assist in problem solving.
+             •  eg. IBM watson,Healthcare diagnosis system etc.
+
+->  Human understanding & CC :-
+        •  Humans go through 4 step while understanding something and making a decision :-
+            (1)  Observe visible phenomenon and bodies of evidence.
+            (2)  Visualise and create hypothesis(all possible solutions).
+            (3)  Check if hypothesis is right or wrong.
+            (4)  Decide choosing the option that is best and act accordingly.
+        •  Cognitive systems use similar processes to reason about the information they read, and they can do this at massive speed and scale.
+
+->  Core elements of CC :
+        •  Perception => Basis of CC to interpret & understand the environment.It's components include sensing,where data , whether structured 
+                         or unstructured.
+        •  Learning => CC Employs ML To analyze data & extract meaningful info. from the data.
+        •  Reasoning => Making accurate predictions and decisions based on data analysis.
+
+->  Benefits of CC :
+        •  Elevated decision making => Due to the analysis of huge datasets.
+        •  Improves efficiency => As a lot of time and resources are saved by automating tasks.
+        •  Enables interactive communication => With the help of Natural Language Processing.
+
+->  Companies using CC :  
+        •  IBM
+        •  Google
+        •  Amazon
+        •  JPMorgan Chase
+        •  Wells Fargo
+
 
