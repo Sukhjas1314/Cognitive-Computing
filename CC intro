@@ -175,11 +175,75 @@
 
 
 ->  Fundamental Principles of CC :
-        •  Learn :  Gathering and understanding data
-        •  Model :  Organizing data into a useful structure
+        •  Learn :  Gathering and understanding data(what can you infer from the data)
+        •  Model :  Organizing data into a useful structure (Not merely an equation,can have constraints, more than one equation, etc)
         •  Generte hypothesis :  Proposing and testing possible solutions
 
 
+->  Regression :
+        •  ML technique that determines the relationship b/w variables(having independent and dependent variable(s)).
+        •  Relation can be linear or non-linear(like quadratic,cubic).
+        •  Determine the strength and character of the relationship between one dependent variable(usually denoted by Y) and a series of other 
+           variables(known as independent variables).
+                        ** Strength = Magnitude and Direction(+ve or –ve)
+                        ** Character = Linear,Non-linear,Multi-variate
+
+
+-> Linear Regression :
+        • Simple linear regression
+              * One dependent variable(interval or ratio)
+              * One independent variable(interval or ratio or dichotomous)
+        • Multiple linear regression
+              * One dependent variable(interval or ratio)
+              * Two or more independent variables(interval or ratio or dichotomous)
+        • Logistic regression
+              * One dependent variable(binary)
+              * Two or more independent variable(s)(interval or ratio or dichotomous)
+
+
+->  Formula for linear regression :
+        Equation :  y = a + bx
+                            |----------------------------------|
+                            |  a = [(∑y)(∑x^2) - (∑x)(∑xy)]    |
+                            |      -------------------------   |
+                            |          [n(∑x^2) - (∑x)^2]      |
+                            |----------------------------------|
+                            |---------------------------|
+                            |  b = [n(∑xy) - (∑x)(∑y)]  |  
+                            |      -------------------- |
+                            |      [n(∑x^2) - (∑x)^2]   |
+                            |---------------------------|
+                                where,x and y are two variables on the regression line.
+                                      b = Slope of the line.
+                                      a = y-intercept of the line.
+                                      x = Values of the first data set.
+                                      y = Values of the second data set.
+                                      n = Total number of data points
+
+
+->  Features of Cognitive System :
+        • Learn from experience with data/evidence and improve its own knowledge and performance without reprogramming.
+        • Generate and/or evaluate conflicting hypotheses based on the current state of its knowledge.
+        • Report on findings in a way that justifies conclusions based on confidence in the evidence.
+        • Discover patterns in data, with or without explicit guidance from a user regarding the nature of the pattern.
+        • Emulate processes or structures found in natural learning systems (that is, memory management, knowledge organization processes, or 
+          modeling the neurosynaptic brain structures and processes).
+        • Use NLP to extract meaning from textual data and use deep learning tools to extract features from images, video, voice, and sensors.
+        • Use a variety of predictive analytics algorithms and statistical techniques.
+
+
+->  Difference b/w Probabilistic & Deterministic :-
+        •  Probabilistic :
+                *  In a probabilistic system, there may be a variety of answers, depending on circumstances or context and the confidence 
+                   level or probability based on the system’s current knowledge.
+                *  Exact output is unknown
+                *  E.g. weather forecasting,mail delivery etc.
+
+        •  Deterministic :
+                *  A deterministic system would have to return a single answer based on the evidence, or no answer if there were a condition of uncertainty.
+                *  Output is certain
+                *  Relationships between inputs are known and certain
+                *  E.g. Traditional form submissions, calculators, Algorithmic systems etc.
 
 
 
