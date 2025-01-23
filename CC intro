@@ -1,11 +1,14 @@
                                 Intro
 
+
 ->  eg -:
         •  Voice assistants like siri, alexa and google assistant set an alarm or play a song, the system processes your voice, understands the command, 
            and responds accordingly. That’s cognitive computing!
         •  Instagram/Facebook Feeds : Cognitive systems analyze your preferences, time spent on posts, and interactions to personalize your feed.
 
+
 ->  Definations :-
+        •  Subset of AI.
         •  Cognitive computing is one such technology that can evaluate an individual's performance and offer personalized recommendations.
         •  Pertaining to the processes of thinking,reasoning,understanding,learning and problem-solving(intellectual activities)
         •  Cognitive computing is a technology that mimics human thought processes using artificial intelligence (AI), machine learning (ML),
@@ -13,6 +16,8 @@
         •  Cognitive processes use existing knowledge and generate new knowledge and it continuously acquires knowledge from the existing to 
            understand human interaction and provide answers.
         •  Focuses on building systems that augment human intelligence, helping humans make better decisions.
+        •  A cognitive system is probabilistic.
+
 
 ->  Examples of cognition include:
         •  paying attention to something in the environment,
@@ -23,13 +28,16 @@
         •  solving problems, and
         •  using memory.
 
+
 ->  These advanced systems do more than execute commands :-
         •  Grasps your need
         •  Anticipate your questions
         •  Proactively deliver valuable insights
 
+
 ->  eg. For instance, the cognitive computing system can help a bank detect fraudulent transactions, or it can be employed by a company to 
         improve its customer support through the chat bot.
+
 
 ->  Difference b/w AI & CC :-
         AI : •  Builds systems that replace the human intelligence for automating tasks and decision making.
@@ -39,6 +47,7 @@
              •  Colaborates with human to assist in problem solving.
              •  eg. IBM watson,Healthcare diagnosis system etc.
 
+
 ->  Human understanding & CC :-
         •  Humans go through 4 step while understanding something and making a decision :-
             (1)  Observe visible phenomenon and bodies of evidence.
@@ -47,16 +56,19 @@
             (4)  Decide choosing the option that is best and act accordingly.
         •  Cognitive systems use similar processes to reason about the information they read, and they can do this at massive speed and scale.
 
+
 ->  Core elements of CC :
         •  Perception => Basis of CC to interpret & understand the environment.It's components include sensing,where data , whether structured 
                          or unstructured.
         •  Learning => CC Employs ML To analyze data & extract meaningful info. from the data.
         •  Reasoning => Making accurate predictions and decisions based on data analysis.
 
+
 ->  Benefits of CC :
         •  Elevated decision making => Due to the analysis of huge datasets.
         •  Improves efficiency => As a lot of time and resources are saved by automating tasks.
         •  Enables interactive communication => With the help of Natural Language Processing.
+
 
 ->  Companies using CC :  
         •  IBM
@@ -64,5 +76,116 @@
         •  Amazon
         •  JPMorgan Chase
         •  Wells Fargo
+
+
+->  Goals :
+        •  Develop systems that can understand, interpret, and respond to complex information like the way humans do.
+        •  Focuses on replicating human-like cognitive processes and emphasizes applications where human- machine collaboration is essential.
+
+
+->  Technology used : 
+        •  ML                        }
+        •  NLP                       }  Foundation of CC
+        •  Big data analytics        } 
+        •  Deep learning
+        •  Sentiment Analysis
+        •  Neural networks
+
+
+->  NLP :
+        •  Natural Language Processing
+        •  Field of AI that enables computers to understand and respond to human language
+        •  Key technologies : 
+                        (1)  Tokenization : 
+                                      *  Breaking down text into smaller,manageable units called tokens.
+                                      *  eg. Word tokenization = input : "Hello sir , hi!"
+                                                                 output : ["Hello","sir",",","hi","!"]
+                                             Sentence tokenization = input : "Hello! How are you? I am fine."
+                                                                     output : ["Hello!","How are you?","I am fine."]
+                        (2)  Parsing :
+                                      *  Analysing the grammatical structure of a sentence to understand the meaning.
+                                      *  eg. Sentence : "The cat sits on the mat." 
+                                             Subject : "The cat"
+                                             Verb : "sits"
+                                             Prepositional phrase : "on the mat"
+                        (3)  Sentiment analysis :
+                                      *  Also known as opinion mining,used to determine the sentiment or emotion expressed in a peice of text.
+        •  Applications :  Chatbots,Language translation, smart assistants like siri,alexa etc.
+        •  Uses in CC :  It allows cognitive systems to interpret human language in all its complexity, enabling machines to understand spoken
+           or written text much like a human listener or reader would.     
+
+
+->  ML :
+        •  Subset of AI focused on building systems that learn from the data.
+        •  Types :
+                *  Supervised
+                *  Unsupervised
+                *  Reinforcement Learning
+        •  Key algos :  Decision trees,SVM,k-nearest neighbours etc.
+        •  Applications :  Image recognition,Email classification
+        •  Uses in CC :  
+                *  Equips systems with the ability to learn from data and experiences, much like humans learn from observation and interaction 
+                   with the world.
+                *  The more data these systems are exposed to, the more accurately they can make predictions or decisions.
+
+
+->  Big Data Analytics :
+        •  A field that involves examining large and complex data sets to uncover hidden patterns, correlations, and insights, enabling data-
+            driven decision-making.
+        •  Key techniques :
+                *  Data Analytics
+                *  Data Visualisation
+                *  Predictive Analytics
+                *  Clustering
+                *  Real-time processing
+        •  Applications :  Fraud detection,recommendation systems,customer segmentation,healthcare diagnostics,financial risk analysis.
+        •  Uses in CC :  It enables cognitive systems to process and analyze massive volumes of structured, unstructured and semi-structured 
+           data, extracting meaningful insights to support reasoning, learning, and decision-making processes.
+
+
+->  **  Structured Data :
+        (1)  Data that can be processed,stored and retieved in a fixed format
+        (2)  Refers to  highly organised info. that can be readily & seamlessly stored & accessed from a database by simple search engine algos
+        (3)  eg. Bank transactions
+
+    **  Unstructured data :
+        (1)  Refers to the data that lack any specific form or structure whatsoever.
+        (2)  This makes it very difficult and time-consuming to analyze unstructured data.
+        (3)  Stored in data lakes, NoSQL (Not Only Structured Query Language) databases, or cloud-based systems.
+        (4)  Free-form or undefined format (e.g., text, images, videos, audio).
+        (5)  eg. Social media posts
+
+    **  Semi-structured data :
+        (1)  Refers to the data containing both the formats i.e. structured and unstructured data.
+        (2)  Refers to the data that although has not been classified under a particular repository (database), yet contains vital information or 
+             tags that segregate individual elements within the data.
+        (3)  eg. email as :  The written content of an email is unstructured, whereas there are some inherent structure to the info. in 
+             each email, such as the sender’s name, recipient address, recipient name and date sent.
+
+
+->  Big data :
+        •  Refers to the dynamic,large and disparate volumes of data being created by people,tools and machines.
+        •  Characteristics of big data : (5 V's)
+                                    *  Velocity :  Speed at which data is being created in real time.
+                                    *  Volume :  The scale of the data or the increase in the amount of data stored.
+                                    *  Variety :  The diversity of the data.
+                                    *  Veracity :  The quality and origin of data and its conformity to facts and accuracy.
+                                                   Attributes include consistency, completeness, integrity, and ambiguity
+                                    *  Value :  The ability and need to turn data into value.
+
+
+->  Fundamental Principles of CC :
+        •  Learn :  Gathering and understanding data
+        •  Model :  Organizing data into a useful structure
+        •  Generte hypothesis :  Proposing and testing possible solutions
+
+
+
+
+
+
+
+
+
 
 
